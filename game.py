@@ -20,11 +20,10 @@ def game_over_text():
 	screen.blit(game_over,(200,250))
 
 	
-#Title and icon
+#Title 
 
 pygame.display.set_caption("space invaders")
-icon = pygame.image.load("7.bmp")
-pygame.display.set_icon(icon)
+
 #background_image
 backImg = pygame.image.load("155.jpg")
 new_img = pygame.transform.scale(backImg,(800,600))
